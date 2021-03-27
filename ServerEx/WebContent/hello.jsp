@@ -15,6 +15,5 @@
 	}
 	%>
 	<p>Welcome, <%= name %>!</p>
-
 </body>
 </html>
