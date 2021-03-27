@@ -28,4 +28,14 @@
   <!--
   요청 /hs -> 4) -> 3) -> 1) -> 2) -> 브라우저에 응답
    -->
+   
+   <servlet>
+   	<servlet-name>LifecycleServlet</servlet-name>	<!-- 3) -->
+   	<servlet-class>com.bit.servlet.LifecycleServlet</servlet-class>		<!-- 4) -->
+   </servlet>
+   
+   <servlet-mapping>
+   	<servlet-name>LifecycleServlet</servlet-name>	<!-- 2) -->
+   	<url-pattern>/life</url-pattern>	<!-- 1) -->
+   </servlet-mapping>
 </web-app>
