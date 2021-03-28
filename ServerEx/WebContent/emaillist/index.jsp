@@ -18,6 +18,7 @@
 	//	목록 받아오기
 	List<EmailVo> list = dao.getList();
 	
+	
 	for (EmailVo vo: list) {
 		//	출력 %>
 		<!-- 정보 테이블 -->
@@ -39,5 +40,8 @@
 	}
 	%>
 
+	<p>
+		<a href="form.jsp">메일링 리스트 가입</a>
+	</p>
 </body>
 </html>
