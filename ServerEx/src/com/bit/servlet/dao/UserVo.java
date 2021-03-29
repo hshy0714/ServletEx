@@ -69,7 +69,7 @@ public class UserVo {
 
 	public void setGender(String gender) {
 		this.gender = gender;
-	}
+	}  
 
 	public Date getCreatedAt() {
 		return createdAt;
